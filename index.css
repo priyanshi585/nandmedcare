@@ -43,6 +43,9 @@
     background-image: linear-gradient(to right ,#649bff,#0070fa,#649bff);
     margin-right: 10px;
 }
+.mainheader button:hover {
+    cursor: pointer; /* Change the cursor to a hand pointer */
+  }
 main{
     width: 100%;
     display: flex;

@@ -52,7 +52,7 @@ main{
     align-items: center;
     justify-content: space-between;
 }
-.left-sec button{
+.read-more button{
     padding: 15px 45px;
     text-align: center;
     font-size: 14px;
@@ -61,25 +61,33 @@ main{
     border-radius: 10px;
     background-image: linear-gradient(to right ,#649bff,#0070fa,#649bff);
 }
-.left-sec{
+.read-more{
     padding-left: 100px;
 }
 .right-sec{
     padding-right: 70px;
 }
-.left-sec h2{
+.read-more h2{
     font-size: 20px;
     text-transform: capitalize;
     font-weight: lighter;
     color: #242424;
     margin-top: 100px;
 }
-.left-sec h1{
+.read-more h1{
     font-size: 70px;
     text-transform: capitalize;
     font-weight: 700;
     margin: 12px 0;
 }
-.left-sec p{
+.read-more p{
+    margin-bottom: 10px;
+}
+.read-more button{
+    padding: 7px;
     margin-bottom: 20px;
+}
+.read-more p{
+    margin: 0;
+    margin-bottom: 8px;
 }
